@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background-image: url(back-2.jpg);
+    background-position: center;
+    background-size: 1100px 1100px;
+    background-repeat: no-repeat;
+}
+
+input {
+    padding: 0.7em;
+    margin: 1em;
+    border: none;
+    color: black;
+}
+
+button {
+    padding: 0.7em 4em;
+    margin: 2em;
+    font-size: 1em;
+    background-color: #d2e8eb;
+    border: none;
+}
+
+section {
+    margin-top: 10em;
+}
+
+#operators {
+    padding: 0.7em 2em;
+    background-color: transparent;
+    font-weight: bold;
+    margin:10px;
+}

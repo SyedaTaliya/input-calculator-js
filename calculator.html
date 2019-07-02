@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="calculator.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <section>
+
+        <div>
+            <input id="first-num" type="number" placeholder="enter number here">
+        </div>
+
+        <div>
+            <input id="second-num" type="number" placeholder="enter number here">
+        </div>
+
+        
+            <select id="operators">
+
+        <option value="add"> ADD </option>
+
+        <option value="subtract"> SUBTRACT </option>
+
+        <option value="multiplication"> MULTIPLY </option>
+
+        <option value="division"> DIVISION </option>
+
+        </select>
+
+        <div>
+            <button onclick="calculation()"> Calculate </button>
+        </div>
+
+
+        <div id="ans"></div>
+
+    </section>
+
+
+
+    <script src="calculator.js"></script>
+</body>
+
+</html>
